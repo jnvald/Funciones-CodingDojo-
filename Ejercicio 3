@@ -1,10 +1,6 @@
-//ebes imprimir la suma de todos los valores en el arreglo dado:
-
-function printSumArray(x) {
-    var sum = 0;
-    for (var i = 0; i < x.length; i++) {
-        // escribe tu código aquí
-    }
-    return sum;
+function a(n) {
+    console.log('n es', n);
+    return n+15;
 }
-console.log( printSumArray([1,2,3]) ); // debe imprimir 6
+var x = a(3);
+console.log('x es', x);
