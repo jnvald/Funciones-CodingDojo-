@@ -1,8 +1,9 @@
-// Escribe una función que retorne el mayor elemento del arreglo dado:
-
-function mayorElem(x) {
-    var mayorHastaAhora = x[0];
-    // escribe tu código aquí
-    return mayorHastaAhora;
+var z = 15;
+console.log(z);
+function a(z){
+   console.log(z);   
+   return z;
 }
-console.log( mayorElem([8,3,11,2,-8]) ); // debe imprimir 11
+var b = a(10);
+console.log(b);
+console.log(z);
